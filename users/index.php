@@ -66,6 +66,5 @@
 			<?php endif; ?>	
 		</tbody>	
 	</table>
-	<?php var_dump($_session);?>
 <?php include('modal_access.php'); ?>
 <?php include(FOOTER_TEMPLATE); ?>
