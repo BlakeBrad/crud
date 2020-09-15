@@ -1,4 +1,5 @@
 <?php	
+Session_start();
 		if($_SESSION['lvl_acess'] != 0) {require_once('../config.php');	require_once(DBAPI);}	
 	$produtos = null;	$produto = null;		
 	/**	
