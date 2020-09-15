@@ -1,5 +1,4 @@
 <?php
-session_start();
 require_once('../config.php');	require_once(DBAPI);
 	$mvs = null;	$mv = null;		
 	//$cod_pro = $mv['id'];		
